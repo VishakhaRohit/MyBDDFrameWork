@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="26.789">
+    <testcase classname="OpenCart Feature" name="OpenCart Login Test Scenario" time="5.235">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is "Account Login".................................passed
+Then user check forgot password link........................................passed
+Then user enters "taksh123@gmail.com" and "taksh123"........................passed
+Then user clicks on login button............................................passed
+Then user is on My Account page "My Account"................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OpenCart Feature" name="OpenCart ProductInfo Test Scenario" time="6.482">
+        <system-out><![CDATA[Given user opens LoginPage..................................................passed
+When title of the loginpage "Account Login".................................passed
+Then user enter the "taksh123@gmail.com" and "taksh123".....................passed
+Then user clicking on login.................................................passed
+Then user search for the "Macbook"..........................................passed
+Then user click on the product..............................................passed
+Then verify the product details "MacBook"...................................passed
+Then closing the browser....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OpenCart Feature" name="OpenCart Registration Test Scenario" time="4.432">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When title of login page "Account Login"....................................passed
+Then go to registration page................................................passed
+Then quite the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OpenCart Feature" name="OpenCart Login Test Scenario" time="5.348">
+        <system-out><![CDATA[Given user is on LoginPage..................................................passed
+When title of loginpage is "Account Login"..................................passed
+Then user entering "taksh123@gmail.com" and "taksh123"......................passed
+Then user clicks on login...................................................passed
+Then user is on "My Account"................................................passed
+Then user is searching for the "Macbook"....................................passed
+Then quit browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OpenCart Feature" name="OpenCart Login Test Scenario 2" time="5.029">
+        <system-out><![CDATA[Given user is on LoginPage..................................................passed
+When title of loginpage is "Account Login"..................................passed
+Then user entering "taksh123@gmail.com" and "taksh123"......................passed
+Then user clicks on login...................................................passed
+Then user is on "My Account"................................................passed
+Then user is searching for the "iPhone".....................................passed
+Then quit browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
