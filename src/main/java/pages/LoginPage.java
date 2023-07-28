@@ -2,20 +2,24 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LoginPage {
+public class LoginPage{
 
 	WebDriver driver;
-
-	public void openBrowser() {
-		 System.setProperty("webdriver.chrome.driver", "C:\\QA\\SeleniumJars\\chromedriver.exe");
-		 driver = new ChromeDriver();
-	}
 	
-	public void openLoginPage() {
-		 driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
+	public LoginPage(WebDriver driver)
+	{
+		this.driver = driver;
 	}
+
+//	public void openBrowser() {
+//		 System.setProperty("webdriver.chrome.driver", "C:\\QA\\SeleniumJars\\chromedriver.exe");
+//		 driver = new ChromeDriver();
+//	}
+//	
+//	public void openLoginPage() {
+//		 driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
+//	}
 
 	public String getTitle() {
 		String actualTitle = driver.getTitle();

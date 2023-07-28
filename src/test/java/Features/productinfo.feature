@@ -13,4 +13,4 @@ Then closing the browser
 
 Examples:
  		|       emailId       |     password    |   productName   |
- 		| taksh123@gmail.com  |   taksh123    |    Macbook      |
+ 		| mahant12345@gmail.com  |   Baps@12345    |    Macbook      |

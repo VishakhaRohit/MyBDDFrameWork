@@ -1,22 +1,17 @@
 package stepDefinations;
 
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 
+import base.BaseTest;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.ProductInfoPage;
 
-public class ProductInfoDefination {
-
-	WebDriver driver;
-	ProductInfoPage pp = new ProductInfoPage();
+public class ProductInfoDefination extends BaseTest{
 	
 	@Given("^user opens LoginPage")
 	public void user_opens_login_page() {
-		pp.openBrowser();
-		pp.openLoginPage();
+		System.out.println("user is on login page");
 	}
 	
 	@When("^title of the loginpage \"(.*)\"$")

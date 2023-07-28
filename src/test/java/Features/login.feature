@@ -12,7 +12,7 @@ Then close the browser
 
 Examples:
  		|          emailId       |   password  |  
- 		|   taksh123@gmail.com   |   taksh123  | 
+ 		|   mahant12345@gmail.com   |   Baps@12345  | 
 
 
 

@@ -2,21 +2,16 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SearchProductPage {
 
 	WebDriver driver;
 
-	public void openBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\QA\\SeleniumJars\\chromedriver.exe");
-		driver = new ChromeDriver();
+	public SearchProductPage(WebDriver driver)
+	{
+		this.driver = driver;
 	}
-
-	public void openLoginPage() {
-		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
-	}
-
+	
 	public String getTitle() {
 		String actualTitle = driver.getTitle();
 		System.out.println("Login Page title = " + actualTitle);

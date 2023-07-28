@@ -24,5 +24,5 @@ Then quit browser
 
 Examples:
  		|         emailId      |     password   |   productName   |
- 		|  taksh123@gmail.com  |     taksh123   |    Macbook      |
- 		|  taksh123@gmail.com  |     taksh123   |    iPhone       |
+ 		|  mahant12345@gmail.com  |     Baps@12345   |    Macbook      |
+ 		|  mahant12345@gmail.com  |     Baps@12345   |    iPhone       |

@@ -2,19 +2,16 @@ package stepDefinations;
 
 import org.junit.Assert;
 
+import base.BaseTest;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.LoginPage;
 
-public class LoginDefination {
-
-	LoginPage lp = new LoginPage();
+public class LoginDefination extends BaseTest{
 	
 	 @Given("^user is already on Login Page$")
 	 public void user_already_on_login_page(){
-	 lp.openBrowser();
-	 lp.openLoginPage();
+		 System.out.println("User is on loginPage");
 	 }
 	
 	 @When("^title of login page is \"(.*)\"$")

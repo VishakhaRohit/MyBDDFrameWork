@@ -2,20 +2,17 @@ package stepDefinations;
 
 import org.junit.Assert;
 
+import base.BaseTest;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.RegistrationPage;
 
-public class RegistrationDefination {
-
-	RegistrationPage rp = new RegistrationPage();
+public class RegistrationDefination extends BaseTest{
 
 	@Given("^user is on Login Page$")
 	public void user_is_on_loginPage() {
-		rp.openBrowser();
-		rp.openLoginPage();
+		System.out.println("User is on login page");
 	}
 
 	@When("^title of login page \"(.*)\"$")
